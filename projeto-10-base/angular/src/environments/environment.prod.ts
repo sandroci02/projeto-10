@@ -5,8 +5,7 @@
 export const environment = {
   production: true,
   local: false,
-  /*apiPrefix: '/api/'*/
-  apiPrefix: 'https://app-projeto10.herokuapp.com/api/'
+  apiPrefix: '/api/'
 };
 
 /*
