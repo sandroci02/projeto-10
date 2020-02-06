@@ -3,11 +3,11 @@
         <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
             <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
         </button>
-        <span>Projeto-9</span>
+        <span>Projeto-10</span>
         <span class="toolbar-spacer"></span>
         <span>{{usuario.nome}}</span>
         <mat-icon class="toolbar-icon mouse" (click)="goDashboard()" title="Ir para Dashboard">dashboard</mat-icon>
-        <mat-icon class="toolbar-icon mouse" (click)="abrirAlertas()" title="Abrir alertas" matBadge="{{mensagens}}" matBadgeColor="accent">message</mat-icon>       
+        <mat-icon class="toolbar-icon mouse" (click)="abrirAlertas()" title="Abrir alertas" matBadge="{{mensagens}}" matBadgeColor="accent">message</mat-icon>
         <mat-icon class="toolbar-icon mouse" (click)="goTrocaSenha()" title="Trocar senha">lock</mat-icon>
         <mat-icon class="toolbar-icon mouse" (click)="logout()" title="sair">exit_to_app</mat-icon>
     </mat-toolbar-row>
@@ -30,7 +30,7 @@
             <a mat-list-item routerLink='/grupo' routerLinkActive="active-list-item">
                 <mat-icon>people</mat-icon>
                 Grupos
-            </a>          
+            </a>
 
             <a mat-list-item routerLink='/login' routerLinkActive="active-list-item">Login</a>
         </mat-nav-list>
